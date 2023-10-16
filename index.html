@@ -1,36 +1,67 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Navigation bar</title>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="styles.css" >
+    <title>Miracle</title>
   </head>
   <body>
     <header>
-      <div id="brand"><a href="/">MyCompany</a></div>
+      <div id="brand"><a href="/">My website</a></div>
       <nav>
         <ul>
           <li><a href="/home">Home</a></li>
-          <li><a href="/products">Products</a></li>
+          <li><a href="/contact">Contact</a></li>
           <li><a href="/about">About</a></li>
-          <li id="login"><a href="/login" >Login</a></li>
-          <li id="signup"><a href="/signup">Signup</a></li>
+          <li><a href="search">search</a></li>
         </ul>
       </nav>
       <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
-        <ul class="mobile-menu">
-          <li><a href="/home">Home</a></li>
-          <li><a href="/products">Products</a></li>
-          <li><a href="/about">About</a></li>
-          <li id="login"><a href="/login" >Login</a></li>
-          <li id="signup"><a href="/signup">Signup</a></li>
-        </ul>
+          <div class="mobile-menu" id="myLinks">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+          </div>
       </div>
     </header>
     <script src="index.js"></script>
+    <div class="container">
+      <h1>About Me</h1>
+    </div>
+    <div>
+      <h2 class="image-container">
+        <img src="IMG_0527.jpg" alt="miracle">
+      </h2>
+    </div>
+    <div class="box">
+        <p>My name is Miracle Fasaye, i am a first year student at NSCC Institution of techonology, I i was born in Nigeria and raised there till i was 14 years old and came to Canada adn i went to Rocking Stone the JL Ilsley for my high school and now i am at NSCC Institution of technology and hope to go to Dalhouse University for another 2 years for computer science</p>
+    </div>
+    <div class="line-section">
+      <h2>resume</h2>
+      <nav>
+        <ul>
+          <li><a href="https://docs.google.com/document/d/1Z7BANGZOyCAURZBGjMdMHxecgEoLJ2PXP47U5OCPmis/edit?usp=sharing">Resume</a></li>
+        </ul>
+        </nav>
+    </div>
+    <div class="line-section">
+        <h2>Contacts</h2>
+        <nav>
+          <ul>
+            <li><a href="tel:+19029891264">Phone</a></li>
+            <li><a href="miraclefasaye@gmail.com">Email</a></li>
+          </ul>
+        </nav>
+    </div>
+    <footer>
+      <div class="container">
+      <p>&copy; 2023 Miracle Fasaye</p>
+      </div>
+    </footer>
   </body>
 </html>
